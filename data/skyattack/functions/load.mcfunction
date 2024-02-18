@@ -64,8 +64,7 @@ schedule function skyattack:floor/booster 1s
 schedule function skyattack:floor/radar 1s
 
 # initialize special loops
-schedule function skyattack:special/loops/booster_loop 1s
-schedule function skyattack:special/loops/radar_loop 1s
+schedule function skyattack:special/loops/special_loop 1s
 
 # initialize the scoreboard objectives
 scoreboard objectives add timer dummy
