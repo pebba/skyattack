@@ -1,0 +1,28 @@
+{
+    "parent": "skyattack:sugar_cane",
+    "display": {
+        "icon": {
+            "item": "minecraft:slime_ball"
+        },
+        "title": {
+            "text": "Time To Fly?",
+            "color": "white"
+        },
+        "description": {
+            "text": "Craft your first slime ball",
+            "color": "white"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:slime_ball"
+            }
+        }
+    }
+}

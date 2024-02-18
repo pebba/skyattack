@@ -1,0 +1,28 @@
+{
+    "parent": "skyattack:gold",
+    "display": {
+        "icon": {
+            "item": "minecraft:music_disc_otherside"
+        },
+        "title": {
+            "text": "Unlimited Potential",
+            "color": "white"
+        },
+        "description": {
+            "text": "Craft a music disc",
+            "color": "white"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:relic"
+            }
+        }
+    }
+}

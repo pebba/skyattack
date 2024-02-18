@@ -1,0 +1,28 @@
+{
+    "parent": "skyattack:gold",
+    "display": {
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": {
+            "text": "IMMORTALITY!",
+            "color": "white"
+        },
+        "description": {
+            "text": "Craft a totem of undying",
+            "color": "white"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:totem_of_undying"
+            }
+        }
+    }
+}

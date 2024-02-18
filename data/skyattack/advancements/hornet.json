@@ -1,0 +1,25 @@
+{
+    "parent": "skyattack:bee",
+    "display": {
+        "icon": {
+            "item": "minecraft:ocelot_spawn_egg"
+        },
+        "title": {
+            "text": "I'm fast as fuck boi!",
+            "color": "white"
+        },
+        "description": {
+            "text": "Spawn a hornet flying machine",
+            "color": "white"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

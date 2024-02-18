@@ -1,0 +1,28 @@
+{
+    "parent": "skyattack:debris",
+    "display": {
+        "icon": {
+            "item": "minecraft:echo_shard"
+        },
+        "title": {
+            "text": "My Precious!",
+            "color": "white"
+        },
+        "description": {
+            "text": "Craft an echo shard",
+            "color": "white"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:echo_shard"
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:cobblestone"
+    },
+    "base": {
+        "item": "minecraft:iron_ingot"
+    },
+    "addition": {
+        "item": "minecraft:honey_bottle"
+    },
+    "result": {
+        "item": "minecraft:gold_ingot"
+    }
+}

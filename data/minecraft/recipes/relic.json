@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " _ ",
+        "_g_",
+        " _ "
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:smooth_stone_slab"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:music_disc_relic",
+        "count": 1
+    }
+}

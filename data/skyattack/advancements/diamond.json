@@ -1,0 +1,28 @@
+{
+    "parent": "skyattack:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "title": {
+            "text": "No Luck Needed",
+            "color": "white"
+        },
+        "description": {
+            "text": "Cut a diamond from a lapis lazuli block",
+            "color": "white"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:diamond"
+            }
+        }
+    }
+}

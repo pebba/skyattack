@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "item": "minecraft:gold_block"
+    },
+    "result": "minecraft:lava_bucket",
+    "experience": 0.2,
+    "cookingtime": 1200
+}

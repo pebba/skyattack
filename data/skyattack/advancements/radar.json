@@ -1,0 +1,38 @@
+{
+    "parent": "skyattack:diamond",
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:3570001}"
+        },
+        "title": {
+            "text": "I know exactly where you are!",
+            "color": "white"
+        },
+        "description": {
+            "text": "Forge the mighty Intruder Checker",
+            "color": "white"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "count": {
+                            "min": 1,
+                            "max": 64
+                        },
+                        "nbt": "{CustomModelData:3570001}"
+                    }
+                ]
+            }
+        }
+    }
+}

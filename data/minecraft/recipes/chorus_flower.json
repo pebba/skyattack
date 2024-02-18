@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:torchflower"
+    },
+    "result": "minecraft:chorus_flower",
+    "experience": 0.4,
+    "cookingtime": 6000
+}

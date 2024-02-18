@@ -1,0 +1,28 @@
+{
+    "parent": "skyattack:bee",
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "title": {
+            "text": "Midas' Touch",
+            "color": "white"
+        },
+        "description": {
+            "text": "Acquire a gold ingot",
+            "color": "white"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:gold_ingot"
+            }
+        }
+    }
+}

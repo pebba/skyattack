@@ -1,0 +1,28 @@
+{
+    "parent": "skyattack:bee",
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_breath"
+        },
+        "title": {
+            "text": "RAWR!",
+            "color": "white"
+        },
+        "description": {
+            "text": "Obtain dragon's breath",
+            "color": "white"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:dragon_breath"
+            }
+        }
+    }
+}

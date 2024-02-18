@@ -1,0 +1,28 @@
+{
+    "parent": "skyattack:cobble",
+    "display": {
+        "icon": {
+            "item": "minecraft:netherrack"
+        },
+        "title": {
+            "text": "Will Last You A Lifetime",
+            "color": "white"
+        },
+        "description": {
+            "text": "Craft a block of netherrack",
+            "color": "white"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:netherrack"
+            }
+        }
+    }
+}

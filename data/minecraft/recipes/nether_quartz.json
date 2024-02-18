@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#N#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sugar"
+        },
+        "N": {
+            "item": "minecraft:nether_brick"
+        }
+    },
+    "result": {
+        "item": "minecraft:quartz",
+        "count": 1
+    }
+}

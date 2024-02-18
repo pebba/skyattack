@@ -1,0 +1,28 @@
+{
+    "parent": "skyattack:dripstone",
+    "display": {
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "title": {
+            "text": "Is it you, dad?",
+            "color": "white"
+        },
+        "description": {
+            "text": "Craft a trident",
+            "color": "white"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:trident"
+            }
+        }
+    }
+}

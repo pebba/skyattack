@@ -1,0 +1,30 @@
+{
+    "parent": "skyattack:chorus_flower",
+    "display": {
+        "icon": {
+            "item": "minecraft:chorus_fruit"
+        },
+        "title": {
+            "text": "Enderman At Home",
+            "color": "white"
+        },
+        "description": {
+            "text": "Eat a chorus fruit",
+            "color": "white"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "eat_item": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:chorus_fruit"
+                }
+            }
+        }
+    }
+}

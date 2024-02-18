@@ -1,0 +1,28 @@
+{
+    "parent": "skyattack:obsidian",
+    "display": {
+        "icon": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "title": {
+            "text": "I'm not crying, you are!",
+            "color": "white"
+        },
+        "description": {
+            "text": "Craft a block of crying obsidian",
+            "color": "white"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:crying_obsidian"
+            }
+        }
+    }
+}

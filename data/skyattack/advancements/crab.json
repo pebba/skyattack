@@ -1,0 +1,25 @@
+{
+    "parent": "skyattack:slime",
+    "display": {
+        "icon": {
+            "item": "minecraft:guardian_spawn_egg"
+        },
+        "title": {
+            "text": "I was a drab little crab once",
+            "color": "white"
+        },
+        "description": {
+            "text": "Spawn a crab flying machine",
+            "color": "white"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

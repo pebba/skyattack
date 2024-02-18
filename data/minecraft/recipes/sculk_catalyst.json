@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "EBE",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:end_stone"
+        },
+        "E": {
+            "item": "minecraft:echo_shard"
+        },
+        "B": {
+            "item": "minecraft:bee_nest"
+        }
+    },
+    "result": {
+        "item": "minecraft:sculk_catalyst",
+        "count": 1
+    }
+}

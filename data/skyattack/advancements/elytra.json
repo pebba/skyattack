@@ -1,0 +1,28 @@
+{
+    "parent": "skyattack:echo_shard",
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": {
+            "text": "Free As A Bird",
+            "color": "white"
+        },
+        "description": {
+            "text": "Obtain the Elytra",
+            "color": "white"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:elytra"
+            }
+        }
+    }
+}
