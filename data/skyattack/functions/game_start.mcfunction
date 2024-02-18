@@ -22,9 +22,6 @@ time set 0
 weather clear
 recipe give @a *
 
-# stop all playsounds
-stopsound @a *
-
 # give temporary effects
 effect give @a blindness infinite 9 true
 effect give @a resistance infinite 9 true

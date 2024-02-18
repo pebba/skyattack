@@ -23,6 +23,9 @@ execute as @a[scores={death=1..}] run scoreboard players set @s death 0
 # check for pearl thrown
 execute as @a[scores={pearlThrown=1..}] at @s run function skyattack:special/ride_pearl
 
+# set loyalty trident to come back in void
+execute as @e[type=trident,x=-10000,dx=20000,y=-50,dy=-100,z=10000,dz=-20000] at @s run data modify entity @s DealtDamage set value 1b
+
 # kill all beacon drop entities
 kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:beacon"}}]
 
