@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/carrot_on_a_stick"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 3570001
+      },
+      "model": "minecraft:item/radar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3570002
+      },
+      "model": "minecraft:item/booster"
+    }
+  ]
+}

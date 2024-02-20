@@ -6,7 +6,7 @@ Welcome to the installation guide for SkyAttack! This guide will walk you throug
 
 Before you begin, ensure you have the following:
 
-- A Minecraft Java Edition installation (version 1.20.2)
+- A Minecraft Java Edition installation (version **1.20.2**)
 - Access to your Minecraft world's save folder
 - Basic knowledge of how to use Minecraft datapacks
 
@@ -25,16 +25,24 @@ Before you begin, ensure you have the following:
 
 3. **Install the Datapack:**
    - Extract the contents of the downloaded `.zip` file.
-   - Inside the extracted folder, there should be a folder named `skyattack`.
-   - Copy the `skyattack` folder.
-   - Paste the `skyattack` folder into the `datapacks` folder inside your Minecraft world's save folder.
+   - Inside the extracted folder, there should be a folder named `skyattack-X.X.X`.
+   - Copy the `skyattack-X.X.X` folder.
+   - Paste the `skyattack-X.X.X` folder into the `datapacks` folder inside your Minecraft world's save folder.
 
-4. **Enable the Datapack in Minecraft:**
+4. **Move the Texture Pack:**
+   - Inside the extracted folder, there should also be a folder named `skyattack-textures`.
+   - Copy the `skyattack-textures` folder.
+   - Navigate to your Minecraft resource pack folder.
+   - Paste the `skyattack-textures` folder into the resource pack folder.
+
+5. **Enable the Datapack and Texture Pack in Minecraft:**
    - In Minecraft, load the world you installed the datapack into.
+   - Open the Resource Packs menu from the main menu.
+   - Locate the `skyattack-textures` pack and move it to the Enabled column.
    - Once in-game, type `/reload` in the chat to reload the world.
    - You should see a message confirming that the datapack has been loaded.
 
-5. **Enjoy the Datapack:**
+6. **Enjoy the Datapack:**
    - Explore your Minecraft world and experience the features and changes introduced by the installed datapack.
 
 ## Support and Feedback
