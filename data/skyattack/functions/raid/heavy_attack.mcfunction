@@ -6,6 +6,12 @@ execute as @a[team=south,scores={heavyAttackTrigger=1..}] run tag @a[team=south]
 execute as @a[team=north,tag=attacker,limit=1] run tellraw @a "§7[§b§lSkyAttack§7] §r§cTeam North has initiated a heavy attack!"
 execute as @a[team=south,tag=attacker,limit=1] run tellraw @a "§7[§b§lSkyAttack§7] §r§cTeam South has initiated a heavy attack!"
 
+# teleport all outside attackers in their base
+execute as @a[team=north,tag=attacker,tag=outside] run tp @s 0 90 -350
+execute as @a[team=south,tag=attacker,tag=outside] run tp @s 0 90 350
+execute as @a[team=north,tag=attacker,tag=outside] run effect give @s minecraft:slow_falling 5 0 true
+execute as @a[team=south,tag=attacker,tag=outside] run effect give @s minecraft:slow_falling 5 0 true
+
 # set the beacons
 setblock 0 70 350 minecraft:beacon
 setblock 0 70 -350 minecraft:beacon

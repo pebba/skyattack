@@ -15,8 +15,8 @@ execute as @a[tag=carrier] run tag @a add messaged_stolen
 execute as @a[tag=carrier] if entity @s[scores={timeSinceDeath=..20}] run function skyattack:raid/dead_carrier
 
 # check if the carrier returned back home = victory
-execute as @a[tag=carrier,team=north,x=-5,y=50,z=-345,dx=10,dy=30,dz=-10] run function skyattack:game_over
-execute as @a[tag=carrier,team=south,x=-5,y=50,z=345,dx=10,dy=30,dz=10] run function skyattack:game_over
+execute as @a[tag=carrier,team=north,x=-1,y=69,z=-351,dx=2,dy=2,dz=2] run function skyattack:game_over
+execute as @a[tag=carrier,team=south,x=-1,y=69,z=349,dx=2,dy=2,dz=2] run function skyattack:game_over
 
 # loop function every 5 ticks
 schedule function skyattack:raid/objective 5t

@@ -18,12 +18,20 @@
         "hidden": false
     },
     "criteria": {
-        "eat_item": {
-            "trigger": "minecraft:consume_item",
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "item": {
-                    "item": "minecraft:chorus_fruit"
-                }
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:chorus_fruit"
+                        ],
+                        "count": {
+                            "min": 1,
+                            "max": 64
+                        }
+                    }
+                ]
             }
         }
     }
