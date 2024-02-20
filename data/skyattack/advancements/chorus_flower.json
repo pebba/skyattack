@@ -1,0 +1,38 @@
+{
+    "parent": "skyattack:sniffer",
+    "display": {
+        "title": {
+            "text": "The Greenest Of Thumbs",
+            "color": "white"
+        },
+        "description": {
+            "text": "Smelt a torchflower in a furnace",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:chorus_flower"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:chorus_flower"
+                        ],
+                        "count": {
+                            "min": 1,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

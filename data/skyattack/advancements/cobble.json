@@ -1,0 +1,38 @@
+{
+    "parent": "skyattack:root",
+    "display": {
+        "title": {
+            "text": "Common Knowledge",
+            "color": "white"
+        },
+        "description": {
+            "text": "Generate cobblestone in a cobblestone generator",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:cobblestone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:cobblestone"
+                        ],
+                        "count": {
+                            "min": 1,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

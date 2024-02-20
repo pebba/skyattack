@@ -1,0 +1,28 @@
+{
+    "parent": "skyattack:seeds",
+    "display": {
+        "icon": {
+            "item": "minecraft:honeycomb"
+        },
+        "title": {
+            "text": "The bees and the...uh..",
+            "color": "white"
+        },
+        "description": {
+            "text": "Craft a bee spawn egg",
+            "color": "white"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:bee_spawn_egg"
+            }
+        }
+    }
+}

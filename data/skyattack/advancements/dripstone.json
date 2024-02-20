@@ -1,0 +1,28 @@
+{
+    "parent": "skyattack:crying_obi",
+    "display": {
+        "icon": {
+            "item": "minecraft:pointed_dripstone"
+        },
+        "title": {
+            "text": "Watch your head!",
+            "color": "white"
+        },
+        "description": {
+            "text": "Craft a pointed dripstone",
+            "color": "white"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:pointed_dripstone"
+            }
+        }
+    }
+}

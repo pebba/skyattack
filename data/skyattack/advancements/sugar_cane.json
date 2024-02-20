@@ -1,0 +1,28 @@
+{
+    "parent": "skyattack:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:sugar_cane"
+        },
+        "title": {
+            "text": "The Cycle Of Life",
+            "color": "white"
+        },
+        "description": {
+            "text": "Craft a sugar cane from cactus",
+            "color": "white"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:sugar_cane"
+            }
+        }
+    }
+}

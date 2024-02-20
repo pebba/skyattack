@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:cobblestone"
+    },
+    "base": {
+        "item": "minecraft:sand"
+    },
+    "addition": {
+        "item": "minecraft:amethyst_shard"
+    },
+    "result": {
+        "item": "minecraft:soul_sand"
+    }
+}

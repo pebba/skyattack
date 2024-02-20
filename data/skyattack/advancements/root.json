@@ -1,0 +1,33 @@
+{
+    "display":{
+        "icon": {
+            "item": "minecraft:feather",
+            "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+        },
+        "title":
+        {
+            "text":"Welcome to SkyAttack",
+            "color":"aqua"
+        },
+        "description":
+        {
+            "text":"Somewhere over the rainbow...",
+            "color":"white"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/snow.png"
+    },
+    "criteria": {
+        "skyattack_welcome": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "position": {
+                    "biome": "minecraft:plains"
+                }
+            }
+        }
+    }
+}

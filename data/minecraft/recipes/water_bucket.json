@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#",
+        "CBC",
+        "#C#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:mangrove_leaves"
+        },
+        "C": {
+            "item": "minecraft:cherry_leaves"
+        },
+        "B": {
+            "item": "minecraft:bucket"
+        }
+    },
+    "result": {
+        "item": "minecraft:water_bucket",
+        "count": 1
+    }
+}

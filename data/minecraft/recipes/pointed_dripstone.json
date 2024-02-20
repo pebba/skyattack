@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "ICI",
+        " E "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cobblestone"
+        },
+        "I": {
+            "item": "minecraft:stone"
+        },
+        "C": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "E": {
+            "item": "minecraft:end_stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:pointed_dripstone",
+        "count": 1
+    }
+}

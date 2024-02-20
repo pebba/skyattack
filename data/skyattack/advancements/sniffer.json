@@ -1,0 +1,28 @@
+{
+    "parent": "skyattack:cobble",
+    "display": {
+        "icon": {
+            "item": "minecraft:sniffer_egg"
+        },
+        "title": {
+            "text": "Fat Fuck",
+            "color": "white"
+        },
+        "description": {
+            "text": "Acquire a sniffer egg",
+            "color": "white"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:sniffer_egg"
+            }
+        }
+    }
+}

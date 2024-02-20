@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#E#",
+        "P P",
+        "P P"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:honeycomb"
+        },
+        "E": {
+            "item": "minecraft:echo_shard"
+        },
+        "P": {
+            "item": "minecraft:phantom_membrane"
+        }
+    },
+    "result": {
+        "item": "minecraft:elytra",
+        "count": 1
+    }
+}

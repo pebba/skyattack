@@ -1,0 +1,28 @@
+{
+    "parent": "skyattack:chorus_flower",
+    "display": {
+        "icon": {
+            "item": "minecraft:budding_amethyst"
+        },
+        "title": {
+            "text": "How long is this going to take?",
+            "color": "white"
+        },
+        "description": {
+            "text": "Craft a budding amethyst",
+            "color": "white"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:budding_amethyst"
+            }
+        }
+    }
+}

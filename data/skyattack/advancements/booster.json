@@ -1,0 +1,29 @@
+{
+    "parent": "skyattack:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:3570002}"
+        },
+        "title": {
+            "text": "HO-LY!",
+            "color": "white"
+        },
+        "description": {
+            "text": "Consume a Wolkenkracherl",
+            "color": "white"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "use_item": {
+            "trigger": "minecraft:levitation",
+            "conditions": {
+                "duration": 1
+            }
+        }
+    }
+}

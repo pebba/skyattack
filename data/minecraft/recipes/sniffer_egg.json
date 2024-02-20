@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:cobblestone"
+    },
+    "base": {
+        "item": "minecraft:egg"
+    },
+    "addition": {
+        "item": "minecraft:oxidized_copper"
+    },
+    "result": {
+        "item": "minecraft:sniffer_egg"
+    }
+}

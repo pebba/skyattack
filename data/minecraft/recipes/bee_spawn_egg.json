@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#OY",
+        "LEL",
+        "YO#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:red_dye"
+        },
+        "O": {
+            "item": "minecraft:orange_dye"
+        },
+        "Y": {
+            "item": "minecraft:yellow_dye"
+        },
+        "L": {
+            "item": "minecraft:light_blue_dye"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:bee_spawn_egg",
+        "count": 1
+    }
+}

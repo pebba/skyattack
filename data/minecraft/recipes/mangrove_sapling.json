@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:cherry_sapling"
+        }
+    ],
+    "result": {
+        "item": "minecraft:mangrove_propagule",
+        "count": 1
+    },
+    "group": "saplings"
+}

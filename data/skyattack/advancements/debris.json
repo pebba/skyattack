@@ -1,0 +1,28 @@
+{
+    "parent": "skyattack:diamond",
+    "display": {
+        "icon": {
+            "item": "minecraft:ancient_debris"
+        },
+        "title": {
+            "text": "We Don't Dig Deep",
+            "color": "white"
+        },
+        "description": {
+            "text": "Craft an ancient debris",
+            "color": "white"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:ancient_debris"
+            }
+        }
+    }
+}

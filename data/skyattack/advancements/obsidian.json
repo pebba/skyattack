@@ -1,0 +1,38 @@
+{
+    "parent": "skyattack:root",
+    "display": {
+        "title": {
+            "text": "You did this on purpose, right?",
+            "color": "white"
+        },
+        "description": {
+            "text": "Obtain obsidian",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:obsidian"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:obsidian"
+                        ],
+                        "count": {
+                            "min": 1,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

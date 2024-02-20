@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:cobblestone"
+    },
+    "base": {
+        "item": "minecraft:oxidized_copper"
+    },
+    "addition": {
+        "item": "minecraft:water_bucket"
+    },
+    "result": {
+        "item": "minecraft:prismarine"
+    }
+}

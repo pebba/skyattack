@@ -1,0 +1,28 @@
+{
+    "parent": "skyattack:seeds",
+    "display": {
+        "icon": {
+            "item": "minecraft:beetroot"
+        },
+        "title": {
+            "text": "Who would have thought?",
+            "color": "white"
+        },
+        "description": {
+            "text": "Cut redstone from beetroot",
+            "color": "white"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:redstone"
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " ##",
+        " S#",
+        "S  "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:pointed_dripstone"
+        },
+        "S": {
+            "item": "minecraft:scute"
+        }
+    },
+    "result": {
+        "item": "minecraft:trident",
+        "count": 1
+    }
+}
