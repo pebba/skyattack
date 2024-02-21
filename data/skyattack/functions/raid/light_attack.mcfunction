@@ -23,10 +23,10 @@ playsound minecraft:item.goat_horn.sound.2 master @a ~ ~ ~ 100
 bossbar add light_raid_bar "§d§lLight Attack"
 bossbar set light_raid_bar color red
 bossbar set light_raid_bar players @a
-bossbar set light_raid_bar max 900
+bossbar set light_raid_bar max 1800
 
 # reset bossbar timer
-scoreboard players set light_timer_entity lightTimerScore 900
+scoreboard players set light_timer_entity lightTimerScore 1800
 execute store result bossbar light_raid_bar value run scoreboard players remove light_timer_entity lightTimerScore 0
 
 # add cooldown for next attack for the team that triggered the attack (360000 ticks = 5h)

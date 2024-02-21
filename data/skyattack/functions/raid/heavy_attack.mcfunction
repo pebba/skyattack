@@ -23,10 +23,10 @@ playsound minecraft:item.goat_horn.sound.2 master @a ~ ~ ~ 100
 bossbar add heavy_raid_bar "§d§lHeavy Attack"
 bossbar set heavy_raid_bar color red
 bossbar set heavy_raid_bar players @a
-bossbar set heavy_raid_bar max 1500
+bossbar set heavy_raid_bar max 3600
 
 # reset bossbar timer
-scoreboard players set heavy_timer_entity heavyTimerScore 1500
+scoreboard players set heavy_timer_entity heavyTimerScore 3600
 execute store result bossbar heavy_raid_bar value run scoreboard players remove heavy_timer_entity heavyTimerScore 0
 
 # add cooldown for next attack for the team that triggered the attack (576000 ticks = 8h)

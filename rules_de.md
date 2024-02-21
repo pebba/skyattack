@@ -46,13 +46,13 @@
 ### Leichter Angriff
 
 - Auszulösen mit **`/trigger lightAttackTrigger set 1`** für das gesamte Team
-- **Dauer: 15 min** insgesamt (inkl. Anflugzeit)
+- **Dauer: 30 min** insgesamt (inkl. Anflugzeit)
 - **5 Stunden Cooldown** pro Team und leichtem Angriff
 
 ### Schwerer Angriff
 
 - Auszulösen mit **`/trigger heavyAttackTrigger set 1`**
-- **Dauer: 25 min** insgesamt (inkl. Anflugzeit)
+- **Dauer: 60 min** insgesamt (inkl. Anflugzeit)
 - **8 Stunden Cooldown** pro Team und schwerem Angriff
 - **Sonderfall**: TNT, welches **als Block** über die Grenze geht, ist **zugelassen**. Dieses kann nach der Grenzkontrolle wieder ins Inventar aufgenommen werden.
 
