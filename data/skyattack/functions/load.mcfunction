@@ -39,6 +39,7 @@ schedule function skyattack:game_start_timer 1s
 schedule function skyattack:loops/remove_markers 1s
 schedule function skyattack:loops/remove_elytra 1s
 schedule function skyattack:loops/remove_villagers 1s
+schedule function skyattack:loops/remove_redstone 1s
 schedule function skyattack:loops/check_playercount 1s
 schedule function skyattack:loops/remove_unmounted_pearls 1s
 
@@ -69,7 +70,6 @@ schedule function skyattack:special/loops/special_loop 1s
 # initialize the scoreboard objectives
 scoreboard objectives add timer dummy
 scoreboard objectives add playerCount dummy
-scoreboard objectives add attackerCount dummy
 scoreboard objectives add intruderCount dummy
 scoreboard objectives add lightAttackTrigger trigger
 scoreboard objectives add heavyAttackTrigger trigger
@@ -77,6 +77,7 @@ scoreboard objectives add lightAttackCooldown dummy
 scoreboard objectives add heavyAttackCooldown dummy
 scoreboard objectives add lightTimerScore dummy
 scoreboard objectives add heavyTimerScore dummy
+scoreboard objectives add attackOngoing dummy
 scoreboard objectives add death minecraft.custom:minecraft.deaths
 scoreboard objectives add timeSinceDeath dummy
 scoreboard objectives add boosterCooldown dummy

@@ -21,7 +21,7 @@
         "get_item": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
-                "recipe_id": "minecraft:redstone"
+                "recipe_id": "minecraft:redstone_"
             }
         }
     }

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:cobblestone"
+    },
+    "base": {
+        "item": "minecraft:packed_ice"
+    },
+    "addition": {
+        "item": "minecraft:lava_bucket"
+    },
+    "result": {
+        "item": "minecraft:obsidian"
+    }
+}
