@@ -39,6 +39,7 @@ schedule function skyattack:game_start_timer 1s
 schedule function skyattack:loops/remove_markers 1s
 schedule function skyattack:loops/remove_elytra 1s
 schedule function skyattack:loops/remove_villagers 1s
+schedule function skyattack:loops/remove_redstone 1s
 schedule function skyattack:loops/check_playercount 1s
 schedule function skyattack:loops/remove_unmounted_pearls 1s
 
