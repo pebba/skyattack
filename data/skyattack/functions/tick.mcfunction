@@ -29,9 +29,6 @@ execute as @e[type=trident,x=-10000,dx=20000,y=-50,dy=-100,z=10000,dz=-20000] at
 # kill all beacon drop entities
 kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:beacon"}}]
 
-# kill the advertisement player head
-clear @a minecraft:player_head
-
 # check for items and trigger advancements
 execute as @a[nbt={Inventory:[{id:"minecraft:zombie_horse_spawn_egg"}]}] run advancement grant @s only skyattack:snail
 execute as @a[nbt={Inventory:[{id:"minecraft:guardian_spawn_egg"}]}] run advancement grant @s only skyattack:crab

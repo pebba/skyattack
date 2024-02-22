@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:beetroot"
-    },
-    "result": "minecraft:redstone",
-    "count": 1
-}

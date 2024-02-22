@@ -10,7 +10,7 @@
 
 - Ziel des Spieles ist, in einem **leichten oder schweren Angriff** den **Beacon des gegnerischen Teams abzubauen** und wieder in die eigene Base, in die Nähe des eigenen Beacons zu bringen. Der Beacon muss nur abgebaut, jedoch nicht eingesammelt werden. Zwischen den Angriffen wird der Ort des Beacons mit einem **Bedrock Block** gekennzeichnet werden. Sollten die Verteidiger ihren eigenen Beacon während eines Angriffes abbauen, wird der nächste Angreifer automatisch zum Carrier.
 
-- Als Startitems erhält jedes Team **2 Eisblöcke, einen Lavabucket und einen Kaktus** neben einem Oak-Baum.
+- Als Startitems erhält jedes Team **einen Eisblock, einen Lavabucket und einen Kaktus** neben einem Oak-Baum.
 
 - Die Insel ist von einer **magischen Bubble** umgeben, die Eindringlingen starke Debuffs gibt. Sie reicht vom Mittelpunkt der Insel 100 Blöcke in alle Richtungen. Zu den Effekten zählen **Weakness, Mining Fatigue, Slowness und Hunger**. Sollte man seine Bubble verlassen/betreten bzw. die Gegner besuchen, werden Warnungen eingeblendet. Das Betreten der gegnerischen Insel ist nur möglich, wenn mindestens ein Gegner online ist. Sollten sich alle Gegner ausloggen, können keine weiteren Gegner die Insel betreten. Spieler, die sich jedoch noch auf der Insel befinden, können dort weiterhin bleiben.
 
@@ -18,7 +18,7 @@
 
 - Die **Grenze** ist ein wichtiger Bestandteil in der Mitte der Map, hier wird scharf auf **Explosives** kontrolliert. Alle Inventare werden hier automatisch auf TNT und ähnliche Substanzen kontrolliert und gegebenenfalls konfisziert. Entfernt werden **TNT, TNT-Minecarts und Firework Stars**, welche man benötigt, um TNT herzustellen. Platzierte TNT Blöcke werden ebenfalls entfernt. Außerdem ist es in der Mitte für 30 Blöcke nicht möglich, Blöcke zu platzieren oder abzubauen.
 
-- **Flugmaschinen-Spawns** mithilfe von gecrafteten **Spawn-Eiern** ist ein wichtiges neues Feature. Dazu **wirft man alle Bestandteile** der Maschinen zusammen mit einer Farbe (Rot für eine Maschine Richtung Norden, Gelb für Süden) **auf den Boden** und erhält ein Ei.
+- **Flugmaschinen-Spawns** mithilfe von gecrafteten **Spawn-Eiern** ist ein wichtiges neues Feature. Dazu **wirft man alle Bestandteile** der Maschinen zusammen mit einer Farbe (Rot für eine Maschine Richtung Norden, Blau für Süden) **auf den Boden** und erhält ein Ei.
 
 - **Alle Regeln** aus diesem Dokument müssen eingehalten werden, sonst folgen **Strikes** mit Bestrafungen wie Angriffsverbote, Storage- oder Inventar-Clears.
 
