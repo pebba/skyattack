@@ -28,5 +28,8 @@ execute as @a[team=south,distance=..200,x=0,y=65,z=350,tag=noflyzone] run tag @s
 execute unless entity @a[team=north] as @a[team=south,tag=intruder,distance=200..250,x=0,y=65,z=-350] run tp @s 0 80 350
 execute unless entity @a[team=north] as @a[team=south,tag=intruder,distance=200..250,x=0,y=65,z=-350] run effect give @s minecraft:slow_falling 5 0 true
 
+# set spawnpoint if bed is obstructed
+execute as @a[team=south,scores={timeSinceDeath=..20},distance=..5,x=0,y=65,z=0] run spawnpoint @s 0 65 350
+
 # loop function every 2 ticks (1t doesn't work with removal of debuffs)
 schedule function skyattack:territorial/south 2t
