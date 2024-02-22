@@ -1,3 +1,6 @@
+# set ongoing attack score to 1
+scoreboard players set #dummy attackOngoing 1
+
 # check which team is attacking and tag them
 execute as @a[team=north,scores={lightAttackTrigger=1..}] run tag @a[team=north] add attacker
 execute as @a[team=south,scores={lightAttackTrigger=1..}] run tag @a[team=south] add attacker

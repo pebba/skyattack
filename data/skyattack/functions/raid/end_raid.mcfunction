@@ -36,3 +36,6 @@ scoreboard players enable @a[team=north] lightAttackTrigger
 scoreboard players enable @a[team=north] heavyAttackTrigger
 scoreboard players enable @a[team=south] lightAttackTrigger
 scoreboard players enable @a[team=south] heavyAttackTrigger
+
+# set attack ongoing score to 0
+scoreboard players set #dummy attackOngoing 0

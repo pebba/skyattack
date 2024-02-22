@@ -10,5 +10,8 @@ execute if score SouthCount playerCount matches 2.. if entity @a[team=north,scor
 execute as @a[team=north,scores={heavyAttackTrigger=1..,heavyAttackCooldown=1..}] run tellraw @s "§cYour team still needs to recover from the heavy attack."
 execute as @a[team=south,scores={heavyAttackTrigger=1..,heavyAttackCooldown=1..}] run tellraw @s "§cYour team still needs to recover from the heavy attack."
 
+# remove all attacker tags if no attack is currently ongoing
+execute unless score #dummy attackOngoing matches 1.. run tag @a remove attacker
+
 # reset the trigger
 scoreboard players set @a[scores={heavyAttackTrigger=1..}] heavyAttackTrigger 0

@@ -77,6 +77,7 @@ scoreboard objectives add lightAttackCooldown dummy
 scoreboard objectives add heavyAttackCooldown dummy
 scoreboard objectives add lightTimerScore dummy
 scoreboard objectives add heavyTimerScore dummy
+scoreboard objectives add attackOngoing dummy
 scoreboard objectives add death minecraft.custom:minecraft.deaths
 scoreboard objectives add timeSinceDeath dummy
 scoreboard objectives add boosterCooldown dummy
