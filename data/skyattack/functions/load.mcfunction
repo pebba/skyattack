@@ -69,7 +69,6 @@ schedule function skyattack:special/loops/special_loop 1s
 # initialize the scoreboard objectives
 scoreboard objectives add timer dummy
 scoreboard objectives add playerCount dummy
-scoreboard objectives add attackerCount dummy
 scoreboard objectives add intruderCount dummy
 scoreboard objectives add lightAttackTrigger trigger
 scoreboard objectives add heavyAttackTrigger trigger
