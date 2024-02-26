@@ -30,6 +30,7 @@ execute unless entity @a[team=south] as @a[team=north,tag=intruder,distance=200.
 
 # set spawnpoint if bed is obstructed
 execute as @a[team=north,scores={timeSinceDeath=..20},distance=..5,x=0,y=65,z=0] run spawnpoint @s 0 65 -350
+execute as @a[team=north,scores={timeSinceDeath=..20},distance=..5,x=0,y=65,z=0] run teleport @s 0 65 -350
 
 # loop function every 2 ticks (1t doesn't work with removal of debuffs)
 schedule function skyattack:territorial/north 2t
