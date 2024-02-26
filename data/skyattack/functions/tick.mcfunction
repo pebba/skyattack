@@ -30,6 +30,9 @@ execute as @e[type=trident,x=-10000,dx=20000,y=-50,dy=-100,z=10000,dz=-20000] at
 execute as @a[tag=intruder] at @s run tag @e[type=minecraft:arrow,distance=..5,limit=1,sort=nearest] add intruderArrow
 execute as @e[type=minecraft:arrow,tag=intruderArrow] run data merge entity @s {damage:0.0}
 
+# remove all attacker tags if no attack is currently ongoing
+execute unless score #dummy attackOngoing matches 1.. run tag @a remove attacker
+
 # kill all beacon drop entities
 kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:beacon"}}]
 
