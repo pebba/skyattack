@@ -42,6 +42,7 @@ schedule function skyattack:loops/remove_villagers 1s
 schedule function skyattack:loops/remove_bed 1s
 schedule function skyattack:loops/remove_rocket 1s
 schedule function skyattack:loops/remove_redstone 1s
+schedule function skyattack:loops/check_intrudertime 1s
 schedule function skyattack:loops/check_playercount 1s
 schedule function skyattack:loops/remove_unmounted_pearls 1s
 
@@ -82,6 +83,7 @@ scoreboard objectives add heavyTimerScore dummy
 scoreboard objectives add attackOngoing dummy
 scoreboard objectives add death minecraft.custom:minecraft.deaths
 scoreboard objectives add timeSinceDeath dummy
+scoreboard objectives add intruderTimer dummy
 scoreboard objectives add boosterCooldown dummy
 scoreboard objectives add radarCooldown dummy
 scoreboard objectives add specialUsed minecraft.used:minecraft.carrot_on_a_stick

@@ -26,8 +26,9 @@ execute as @a[scores={pearlThrown=1..}] at @s run function skyattack:special/rid
 # set loyalty trident to come back in void
 execute as @e[type=trident,x=-10000,dx=20000,y=-50,dy=-100,z=10000,dz=-20000] at @s run data modify entity @s DealtDamage set value 1b
 
-# tag arrows shot by intruders and set the damage of tagged arrows to 0
-execute as @a[tag=intruder] at @s run tag @e[type=minecraft:arrow,distance=..5,limit=1,sort=nearest] add intruderArrow
+# make intruder arrows deal little damage
+execute as @e[type=minecraft:arrow] at @s unless entity @e[type=minecraft:arrow,tag=notIntruderArrow,distance=..0.1] if entity @a[tag=intruder,distance=..2] run tag @s add intruderArrow
+execute as @e[type=minecraft:arrow] at @s unless entity @a[tag=intruder,distance=..2] run tag @s add notIntruderArrow
 execute as @e[type=minecraft:arrow,tag=intruderArrow] run data merge entity @s {damage:0.0}
 
 # remove all attacker tags if no attack is currently ongoing
